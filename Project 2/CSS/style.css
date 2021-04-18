@@ -1,0 +1,314 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+ /* Here Body Starts */
+body {
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* navigation Bar */
+.navbar {
+  background-color: white;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.navbar ul {
+  display: inline-flex;
+  list-style: none;
+  width: 100%;
+  padding: 15px;
+  padding-left: 0px;
+  color: black;
+}
+
+.navbar ul li a {
+  padding: 17px 20px;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  background-color: black;
+  color: white !important;
+}
+
+.active,
+.navbar ul li a :hover {
+  background: black !important;
+  color: white !important;
+}
+
+.navbar .fa {
+  margin-right: 8px;
+}
+
+ /* Navigation Bar DropDown Content */ 
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+
+  box-shadow: 0px 8px 16px 0px rgba(240, 233, 233, 0.2);
+  z-index: 1;
+  margin-top: 15px;
+  overflow: visible;
+}
+
+.dropdown-content a {
+  float: none;
+  display: block;
+  padding: 12px 16px;
+  text-decoration: none;
+  color: black;
+}
+
+.dropdown-content a:hover {
+  background-color: black;
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* End of Navigation bar */
+
+/* Begening pf Slider Container */
+.slider {
+  background-image: url('img/slider.png');
+  height: 480px;
+  padding: 115px 12px;
+}
+.start {
+  text-align: center;
+}
+.slider p {
+  font-size: 64px;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 23px 22px;
+}
+.register {
+  display: block;
+  font-size: 17px;
+  text-align: center;
+  color: white;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
+
+/* Slider Button */
+.slider-btn {
+  text-align: center;
+  margin: 24px 0px 24px 0px;
+}
+.button {
+  font-family: "Montserrat", sans-serif;
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 15px 23px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.button3:hover {
+  box-shadow: 0 8px 18px 0 rgba(167, 180, 111, 0.24),
+    0 17px 50px 0 rgba(196, 146, 146, 0.19);
+  color: white;
+  background: red;
+}
+/* End of Slider */
+
+/* Container 1 Starts */
+.container1 {
+  background-image: url('img/cont1.svg');
+  padding: 60px 12px;
+  height: 500px;
+}
+
+.all-1 {
+  display: flex;
+  width: 95%;
+  justify-content: center;
+  line-height: 1.5;
+  padding-left: 100px;
+}
+
+/* container 1 Left Side */
+.cont1-left {
+  width: 100%;
+  text-align: justify;
+}
+.cont1-text {
+  display: block;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+.container1 h1 {
+  font-family: "RocknRoll One", sans-serif;
+}
+.cont1-par1 {
+  margin: 10px 0px 10px 0px;
+  font-family: "Prompt", sans-serif;
+}
+.cont1-par2 {
+  margin-top: 10px;
+  line-height: 1.5;
+ } /*Container 1 Left Side Ends */
+
+ /* container 1 Right Side */
+.cont1-right {
+  float: left;
+  width: 33%;
+  margin-left: 50px;
+  text-align: center !important;
+  font-size: 200px;
+}
+/* End of Container 1 */
+
+
+/* Container 2 Starts  */
+.container2 {
+  padding: 60px 12px;
+  height: 500px;
+  background-color: #f1f1f1 !important;
+}
+.all-2 {
+  display: flex;
+  width: 92%;
+  justify-content: center;
+  line-height: 1.5;
+  padding-left: 100px;
+}
+
+/*Container 2 Left Side Content */
+.cont2-left {
+  text-align: center !important;
+  font-size: 200px;
+  margin-right: 50px;
+  margin-top: -23px;
+}
+
+.cont2-text {
+  display: block;
+  padding-top: 10px;
+  margin: 10px 0px 10px 0px;
+}
+.container2 h1 {
+  font-family: "RocknRoll One", sans-serif;
+}
+.cont2-par1 {
+  margin: 10px 0px 10px 0px;
+  font-family: "Prompt", sans-serif;
+}
+.cont2-par2 {
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+/*Container 1 Right Side Content */
+.cont2-right {
+  width: 100%;
+  text-align: justify;
+  float: left;
+  padding-left: 40px;
+}
+/* Container 2 Ends */
+
+/* Quote Container Starts */
+.quote {
+  display: flex;
+  justify-content: center;
+  padding: 60px 12px;
+  height: 200px;
+  color: #fff !important;
+  background-color: #000 !important;
+  opacity: 0.6;
+  font-size: 25px;
+}
+.qoute-text {
+  margin-top: 21px;
+}
+
+
+/* Footer Starts */
+footer {
+  display: block;
+  padding: 60px 12px;
+  height: 300px;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+.social-text {
+  padding: 10px 0px 10px 0px;
+  font-size: 20px;
+}
+.foot-cont {
+  padding: 24px 0px;
+}
+.social {
+  padding: 10px 0px 10px 0px;
+}
+.social a {
+  text-decoration: none;
+  color: black !important;
+  background-color: white !important;
+  font-size: 25px;
+}
+.social a:hover {
+  opacity: 0.7;
+}
+.power{
+  padding: 50px 0px;
+}
+.power a {
+  text-decoration: none;
+  color: black !important;
+  background-color: white !important;
+}
+/* Footer Ends  */
+
+/* The End*/
+
+
+.cont1-btn{
+  margin: 10px 0px 10px 100px;
+ float: left;
+}
+.cont2-btn{
+  float: right;
+  margin: 10px 100px 10px 0px;
+}
+.button2 {
+  font-family: "Montserrat", sans-serif;
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 23px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.button22:hover {
+  box-shadow: 0 8px 18px 0 rgb(27 27 26 / 24%), 0 17px 50px 0 rgb(0 0 0 / 34%);
+  color: white;
+  background: red;
+}
