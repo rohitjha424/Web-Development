@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box shadow and text Shadow</title>
+</head>
+<style>
+    .container {
+        display: flex;
+    }
+
+    .card {
+        padding: 23px 34px;
+        margin: 23px 12px;
+        /* border: 2px solid red; */
+        background-color: cyan;
+        /* box-shadow: 10px 13px red;
+        box-shadow: -10px -13px red; */
+        /* box-shadow: 10px 13px 10px red; */
+        box-shadow: 10px 13px 10px 0px red;
+
+
+    }
+    .card h2{
+        text-shadow: 2px 3px red;
+        text-shadow: 2px 3px 3px red;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="card" id="card-1">
+            <h2> Card1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium odit earum inventore veniam quasi
+                repudiandae aperiam dolore aliquid, dicta ipsa eaque molestias nemo minima. Minus deleniti corrupti
+                aliquid maiores facere possimus ipsam iste autem?</p>
+        </div>
+        <div class="card" id="card-2">
+            <h2> Card2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium odit earum inventore veniam quasi
+                repudiandae aperiam dolore aliquid, dicta ipsa eaque molestias nemo minima. Minus deleniti corrupti
+                aliquid maiores facere possimus ipsam iste autem?</p>
+        </div>
+        <div class="card" id="card-3">
+            <h2></h2>
+            <h2>Card3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium odit earum inventore veniam quasi
+                repudiandae aperiam dolore aliquid, dicta ipsa eaque molestias nemo minima. Minus deleniti corrupti
+                aliquid maiores facere possimus ipsam iste autem?</p>
+        </div>
+    </div>
+</body>
+
+</html>
